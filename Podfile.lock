@@ -1,0 +1,57 @@
+PODS:
+  - KeychainAccess (3.1.2)
+  - Kinvey (3.20.4):
+    - KeychainAccess (~> 3.0)
+    - ObjectMapper (~> 3.0)
+    - PromiseKit (~> 6.0)
+    - PubNub (~> 4.0)
+    - Realm (~> 3.0)
+    - RealmSwift (~> 3.0)
+    - SwiftyBeaver (~> 1.0)
+  - ObjectMapper (3.4.1)
+  - PromiseKit (6.7.0):
+    - PromiseKit/CorePromise (= 6.7.0)
+    - PromiseKit/Foundation (= 6.7.0)
+    - PromiseKit/UIKit (= 6.7.0)
+  - PromiseKit/CorePromise (6.7.0)
+  - PromiseKit/Foundation (6.7.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.7.0):
+    - PromiseKit/CorePromise
+  - PubNub (4.8.3):
+    - PubNub/Core (= 4.8.3)
+  - PubNub/Core (4.8.3)
+  - Realm (3.12.0):
+    - Realm/Headers (= 3.12.0)
+  - Realm/Headers (3.12.0)
+  - RealmSwift (3.12.0):
+    - Realm (= 3.12.0)
+  - SwiftyBeaver (1.6.1)
+
+DEPENDENCIES:
+  - Kinvey
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KeychainAccess
+    - Kinvey
+    - ObjectMapper
+    - PromiseKit
+    - PubNub
+    - Realm
+    - RealmSwift
+    - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  KeychainAccess: b3816fddcf28aa29d94b10ec305cd52be14c472b
+  Kinvey: 94152ff927b157dc842d3dfe9e8568e6fc18cfa9
+  ObjectMapper: 5311bd50ca732930959e7ca1a2de43ab823a5ced
+  PromiseKit: 453ddcc947fe7b302f3ef41882b81d31c554df7f
+  PubNub: 871d2a12d790d646e84c0b035acbf9ee6610ea70
+  Realm: cdaef23c4ddb36ab1ddffed23f5a7f3332fc5585
+  RealmSwift: 5576324033f0aa5ef1e0a839a3da2281dff47a7f
+  SwiftyBeaver: ccfcdf85a04d429f1633f668650b0ce8020bda3a
+
+PODFILE CHECKSUM: 0a041cde28999e7e004192f8686767e53528c068
+
+COCOAPODS: 1.5.3
